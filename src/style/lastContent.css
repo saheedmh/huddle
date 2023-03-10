@@ -1,0 +1,34 @@
+.lastContent{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    max-width: 600px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;;
+    box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2);
+    z-index: 1;
+    border-radius:10px;
+    position:relative;
+    bottom:0px;
+    top:40px;
+    
+    
+}
+.lastContent > .heading{
+padding:10px;
+
+}
+.lastContent > .btn{
+    background-color:hsl(322, 100%, 66%);
+    padding:10px;
+    border-radius:15px;
+    outline:none;
+    border:none;
+    font-size:16px;
+    color:white;
+}
+

@@ -1,0 +1,45 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.navCol-1{
+    width: 50%;
+    height: 40%;
+    margin-top:100px;
+}
+.navCol-1 > h1{
+
+    text-transform: capitalize;
+    font-weight:600px;
+ margin-left:40px;
+ padding: 10px;
+    width:300px;
+    font-size:25px;
+    
+
+}
+.navCol-1 > p{
+    margin:30px;
+}
+ .navCol-1 > .btn{
+    background-color:hsl(322, 100%, 66%);
+    padding:10px;
+    border:none;
+    text-align: center;
+    margin-left:30px;
+    border-radius:15px;
+    padding:8px;
+    color:white;
+}
+.navCol-2{
+    width:50%;
+    height: 40%px;
+}
+.navCol-2 > img{
+    width: 500px;
+    height: 350px;
+    margin-right:10px;
+    margin-top:40px;
+
+}

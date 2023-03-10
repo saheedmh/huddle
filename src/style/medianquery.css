@@ -1,0 +1,67 @@
+
+@media  screen  and (max-width:375px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        margin-bottom:0;
+        height:1200px;
+        position:relative;
+        
+        
+    }
+    .nav > .navCol-1{
+      width:375px;
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      grid-gap: 10px;
+      margin-top:0;
+    
+    }
+    .navCol-1 > h1{
+      padding:10px;
+        font-size: 20px;
+        display: flex;
+        text-transform: capitalize;
+        font-weight:600px;
+        width:250px;
+        margin-left:45px;
+        text-align:center;
+        
+    
+    
+    } .navCol-1 > P{
+        
+        
+        font-size:18px;
+        text-align:center;
+        background:white;
+    }
+      
+    .navCol-1 > button{
+        background-color:hsl(322, 100%, 66%);
+        padding:10px;
+        border:none;
+        text-align: center;
+        margin: 0 auto;
+        border-radius:15px;
+        padding:15px;
+        color:white;
+        width:200px;
+        font-size:20px;
+        
+        
+        
+        
+    }   
+    .navCol-2 > img{
+        width:300px;
+        margin-left:10px;
+        height: 300px;
+        margin-top:10px;
+        position: relative;
+        
+    }
+}

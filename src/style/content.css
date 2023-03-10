@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    margin:10px;
+    width: 1000px;
+    height: 350px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2);
+}
+.container > .content{
+    width:450px;
+    height:300px;
+    margin-top: 170px;
+    padding: 10px;
+}
+.content > h1{
+    text-transform: capitalize;
+    font-weight: light;
+    font-size: 20px;
+    
+    margin:5px;
+}
+.content p{
+    text-align: justify;
+    max-width: 400px;
+}
+.container .users{
+    width:450px;
+    height: 300px;
+    margin:10px;
+}
+.users > img{
+    width: 450px;
+    height: 300px;
+    
+}
+@media screen and (max-width) {
+    .container{
+        position:relative;
+        top:50px;
+    }
+}

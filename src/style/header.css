@@ -1,0 +1,75 @@
+.header{
+background-image: url('../../public/images/bg-desk.svg');
+height:100vh;
+background-attachment: scroll;
+
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+    
+}
+.btn-navbar{
+    width:150px;
+    margin-right:5px;
+    margin-top:5px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius:80px;
+    padding:10px;
+    margin-top:20px;
+    margin-right:20px;
+    box-shadow: -3px 6px 19px -2px rgba(0, 0, 0, 0.75);
+
+
+}
+.btn-navbar:hover{
+    background:aqua;
+    color:white;
+}
+.nav-logo{
+    width:100px;
+    margin-top:20px;
+    margin-left:20px;
+    color: white;
+    
+}
+@media screen and (max-width:375px){
+    .header{
+       width: 375px;
+        background-image: url('../../public/images/bg-hero-mobile.svg');
+        background-repeat: repeat;
+        background-position: cover;
+    }
+    .navbar{
+        display:flex;
+        justify-content: space-between;
+        
+        width: 375px;
+        
+        
+        
+        
+    }
+    .btn-navbar{
+        margin-bottom:20px;
+        
+        padding:5px;
+        font-size:16px;
+        
+        text-align: center;
+        
+    }
+    .nav-logo{
+        width:80px;
+        height: 20px;
+        margin-top:20px;
+        margin-left:10px;
+        
+        
+    }
+
+}
