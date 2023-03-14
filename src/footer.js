@@ -31,10 +31,12 @@ const Footer = () => {
             <FontAwesomeIcon className='icon' icon={faFacebook}/>
             <FontAwesomeIcon className='icon' icon={faTwitter}/>
             <FontAwesomeIcon className='icon' icon={faInstagram}/>
-            <small>&copy; copyright 2023. all right reserve</small>
             </div>
                 </div>
-       </div>
+                </div>
+                <div className='copy-reserve'>
+            <small>&copy; copyright 2023. all right reserve</small>
+            </div>
         </footer>
 
      );

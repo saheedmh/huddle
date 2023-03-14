@@ -32,6 +32,11 @@
     padding:8px;
     color:white;
 }
+.navCol-1 > .btn :hover{
+cursor:pointer;
+background-color: aqua;
+
+}
 .navCol-2{
     width:50%;
     height: 40%px;

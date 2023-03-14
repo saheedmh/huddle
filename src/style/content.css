@@ -1,45 +1,233 @@
-.container{
+
+.main{
     display: flex;
+    flex-direction: column;
+}
+.container{
     margin:10px;
     width: 1000px;
-    height: 350px;
-    border-radius: 10px;
+    height: 450px;
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     margin-top: 20px;
+    
     box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2);
 }
-.container > .content{
-    width:450px;
-    height:300px;
-    margin-top: 170px;
-    padding: 10px;
+.content-row{
+    display: flex;
+}
+.content-row > .content{
+    width:50%;
+    margin-top:130px;
+    margin-left:30px;
+
 }
 .content > h1{
     text-transform: capitalize;
-    font-weight: light;
-    font-size: 20px;
-    
+    font-weight: bold;
+    font-size: 30px;
     margin:5px;
 }
-.content p{
+content p{
     text-align: justify;
-    max-width: 400px;
+    font-size:18px;
+    width:360px;
 }
-.container .users{
-    width:450px;
-    height: 300px;
-    margin:10px;
+.content-row > .content-image{
+    flex-basis: 50%;
+    height:400px;
 }
-.users > img{
+.content-image > img{
+    flex-basis: 50%;
+    height:400px;
+}
+.conversation-row{
+    display:flex;
+}
+.conversation{
+    margin-top:130px;
+    width: 400px;
+}
+.conversation-row > .image{
+    width: 500px;
+    
+    height:400px;
+}
+.image > img{
     width: 450px;
-    height: 300px;
+    height:400px;
+}
+.conversation > h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+    margin:5px;
+}
+.conversation > p{
+    text-align: justify;
+    font-size:18px;
+    width:360px;
+}
+.user-row{
+    display: flex;
+}
+.users{
+    width: 450px;
+    margin-top:130px;
+    margin-left: 50px;
     
 }
-@media screen and (max-width) {
-    .container{
+.user-image{
+    width:500px;
+    margin:5px;
+}
+.user-image > img{
+    width: 450px;
+    
+}
+.users > h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+    margin:5px;
+}
+.users p{
+    text-align: justify;
+    font-size:18px;
+    width:360px;
+}
+
+
+@media screen and (max-width:475px) {
+    .main-container{
+        display:flex;
+        flex-direction: column;
+        margin-top:300px;
         position:relative;
-        top:50px;
     }
+    .container{
+        margin:10px;
+        width: 420px;
+        height: 600px;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        
+        box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.2);
+    }
+    .content-row{
+        display: flex;
+        flex-direction:column;
+        height:650px;
+
+    }
+    .content-row > .content{
+        width:400px;
+        position:absolute;
+        top:250px;
+        right:26px;
+        left:10px;
+         }
+    .content > h1{
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 25px;
+        margin:5px;
+        text-align: center;
+    
+        width:350px;
+    }
+    .content p{
+        text-align: justify;
+        font-size:18px;
+    
+        width:350px;
+        text-align: center;
+    }
+    .content-row > .content-image{
+        flex-basis: 100%;
+        
+    }
+    .content-image > img{
+           width: 380px;
+            height:250px;
+            margin-top:30px;
+            margin-left:10px;
+        
+        
+    }
+
+    .conversation-row{
+        display:flex;
+        flex-direction: column;
+    }
+    .conversation{
+        margin-top:5px;
+        width: 400px;
+        margin-left: 20px;
+    }
+    .conversation-row > .image{
+        width: 500px;
+        
+        height:400px;
+    }
+    .image > img{
+        width: 350px;
+        height:300px;
+        margin-left:30px;
+        margin-top:10px;
+    }
+    .conversation > h1{
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 25px;
+        margin:5px;
+        text-align: center;
+    }
+    .conversation > p{
+        text-align: center;
+        font-size:18px;
+        width:360px;
+    }
+     
+    .user-row{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .users{
+        margin-top:20px;
+
+        
+    }
+    .user-image{
+        width:400px;
+        margin:5px;
+    }
+    .user-image > img{
+        width: 350px;
+        margin-left: 30px;
+        
+    }
+    .users > h1{
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 25px;
+        margin:5px;
+        width:400px;
+        text-align: center;
+        
+    }
+    .users p{
+        text-align: center;
+        font-size:18px;
+        width:360px;
+        margin-bottom:30px;
+    }
+    
+    
+    
 }
