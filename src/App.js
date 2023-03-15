@@ -2,8 +2,11 @@
 import React from 'react';
 import Content from './content';
 import Header from './header';
+
 import LastContent from './prefooter';
 import Footer from './footer';
+
+import './style/Apps.css';
 function App() {
   
   return (

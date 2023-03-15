@@ -100,16 +100,20 @@ content p{
 }
 
 
-@media screen and (max-width:475px) {
+@media screen and (max-width:375px) {
     .main-container{
         display:flex;
         flex-direction: column;
+        width: 375px;
         margin-top:300px;
         position:relative;
     }
     .container{
-        margin:10px;
-        width: 420px;
+        
+        margin-top:30px;
+        margin-right: 0px;
+        margin-left: 50px;
+        width: 350px;
         height: 600px;
         border-radius: 15px;
         justify-content: center;
@@ -124,7 +128,7 @@ content p{
 
     }
     .content-row > .content{
-        width:400px;
+        width:350px;
         position:absolute;
         top:250px;
         right:26px;
@@ -140,18 +144,18 @@ content p{
         width:350px;
     }
     .content p{
-        text-align: justify;
+        text-align: center;
         font-size:18px;
-    
-        width:350px;
+        margin-left:30px;
+        width:300px;
         text-align: center;
     }
     .content-row > .content-image{
-        flex-basis: 100%;
+        width: 100%;
         
     }
     .content-image > img{
-           width: 380px;
+           width: 280px;
             height:250px;
             margin-top:30px;
             margin-left:10px;
@@ -165,11 +169,11 @@ content p{
     }
     .conversation{
         margin-top:5px;
-        width: 400px;
+        width: 300px;
         margin-left: 20px;
     }
     .conversation-row > .image{
-        width: 500px;
+        width: 300px;
         
         height:400px;
     }
@@ -189,7 +193,7 @@ content p{
     .conversation > p{
         text-align: center;
         font-size:18px;
-        width:360px;
+        width:260px;
     }
      
     .user-row{
@@ -204,11 +208,11 @@ content p{
         
     }
     .user-image{
-        width:400px;
+        width:300px;
         margin:5px;
     }
     .user-image > img{
-        width: 350px;
+        width: 250px;
         margin-left: 30px;
         
     }
@@ -217,14 +221,15 @@ content p{
         font-weight: bold;
         font-size: 25px;
         margin:5px;
-        width:400px;
+        width:300px;
         text-align: center;
         
     }
     .users p{
         text-align: center;
-        font-size:18px;
-        width:360px;
+        font-size:16px;
+        margin-left: 34px;
+        width:300px;
         margin-bottom:30px;
     }
     

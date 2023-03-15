@@ -1,9 +1,10 @@
 footer{
     background:  hsl(192, 100%, 9%);
-    max-width: 1440px;
+    width: 1440px;
     height:400px;
     margin: 0 auto;
     z-index: initial;
+    
 }
 .footer{
     display:flex;
@@ -69,7 +70,7 @@ footer{
 .copy-reserve {
     display: flex;
     margin:10px;
-    flex-basis: 80%;
+    flex-basis: 375px;
     margin-top:15px;
     color:white;
     
@@ -78,23 +79,27 @@ footer{
 .copy-reserve > small{
     margin: 0 auto;
 }
-@media screen and (max-width :475px) {
+@media screen and (max-width :375px) {
     footer{
+        
+        background:  hsl(192, 100%, 9%);
+        width:375px;
         height: 100%;
+        margin-left: 10px;
         
     }
     .footer{
         display: flex;
         flex-direction: column;
-        width:100%;
+        width: 375px;
         margin:10px;
         
     }
     .footer > .footer-col1{
-      width:400px;  
+      width:375px;  
     }
     .footer-col1 > :nth-child(1){
-    width:150px;
+    width:200px;
     margin-left:10px;
     }
     .footer-col1 > :nth-child(2){
@@ -154,7 +159,7 @@ footer{
     grid-gap: 25px;
     justify-content: center;
     margin-top:20px;
-    width:400px;
+    width:300px;
     cursor:pointer;
 }
 footer > .copy-reserve{

@@ -31,26 +31,21 @@ padding:10px;
     font-size:16px;
     color:white;
 }
-.lastContent > .btn :hover{
-    background:aqua;
-    color:white;
-}
-{
-    background-color: aqua;
-    cursor: pointer;
-}
 
-@media screen and (max-width:475px){
+
+
+@media screen and (max-width:375px){
     .lastContent{
         display: flex;
-         width:380px;
+         width:300px;
+
         justify-content: center;
         align-items: center;
         margin:20px;
-        margin-left:35px;
+        margin-left:50px;
     }
     .lastContent > :nth-child(1){
-        background:aqua;
+        
         font-size:25px;
         text-transform: capitalize;
         text-align:center;
