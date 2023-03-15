@@ -102,7 +102,7 @@ content p{
 
 @media screen and (max-width:375px) {
     .main-container{
-        display:flex;
+        display:fle;
         flex-direction: column;
         width: 375px;
         margin-top:300px;

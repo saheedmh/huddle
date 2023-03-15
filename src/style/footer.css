@@ -1,6 +1,5 @@
 footer{
     background:  hsl(192, 100%, 9%);
-    width: 1440px;
     height:400px;
     margin: 0 auto;
     z-index: initial;
@@ -93,6 +92,7 @@ footer{
         flex-direction: column;
         width: 375px;
         margin:10px;
+        
         
     }
     .footer > .footer-col1{
